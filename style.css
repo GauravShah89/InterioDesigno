@@ -41,10 +41,13 @@ body{
     margin-left: 25px;
 }
 
-.phone-svg{
+.list-item-contact{
     display: flex;
-    border-color: red;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
 }
+
 
 
 /* Copy pasted code to check */
