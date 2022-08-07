@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 0;            
+    outline: 0;          
+    border: 1px solid gray;  
+    list-style-type: none;
 }
 body{
     background-image: url("./assets/plant.png");
@@ -11,44 +13,72 @@ body{
     /* overflow: hidden; */
 }
 
+/* Navbar */
+
 .container{
     display: flex;
-    height: 100px;
-    color: white;
     font-size: 25px;
-    align-items: center;
+    color: white;
+    height: 20vh;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
-    margin-top: 45px;
-    margin-left: 45px;
-    font-size: 25px;
-    width: 60px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 35px;
+    flex: 1;
 }
+
 .list-items{
     display: flex;
-    flex-direction: row;    
     list-style-type: none;
-    cursor: pointer;
-    margin-right: 35px;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-item{
+    margin-left: 25px;
+}
+
+.phone-svg{
+    display: flex;
+    border-color: red;
+}
+
+
+/* Copy pasted code to check */
+
+/* .container {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bolder;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
     border-bottom: 2px solid white;
 }
 
-.list-item{
-    margin-right: 45px;
+nav ul li {
+    margin: 2rem;
 }
 
-.phone-svg svg {
-    position: absolute;    
-    top: -20px;
-    right: -610px;
-    width: 150%;   
-}
-.phone-svg svg path {
-    fill: rgb(248, 239, 239);
-}
+nav ul li span {
+    display: flex;
+} */
 
 
+/* Hero Section */
 
 
 
